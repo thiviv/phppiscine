@@ -1,12 +1,12 @@
-<?php
+<?php 
 
-function my_concat() {
-    $str1 = "Hello ";
-    $str2 = $str1 . "world !";
-
-    print $str2;
+function my_concat($str_1, $str_2) {
+    echo $str_1 . " " . $str_2;
 }
 
-my_concat();
+$str_1 = "Hello";
+$str_2 = "World";
+
+my_concat($str_1, $str_2);
 
 ?>

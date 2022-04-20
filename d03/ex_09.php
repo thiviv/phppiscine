@@ -1,10 +1,11 @@
 <?php
 
-function print_variable() {
-    $val = 5;
+function print_variable($val) {
     print "variable = $val";
 }
 
-print_variable();
+$val = "cochon mou";
+
+print_variable($val);
 
 ?>

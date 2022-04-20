@@ -1,7 +1,7 @@
 <?php
 
 function print_something() {
-    echo "Something \n";
+    print "Something \n";
 }
 
 print_something();
